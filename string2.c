@@ -18,7 +18,6 @@ int search(char a[], char b[]){
 }
 
 int startsWith(char a[], char b[]){
-    int result;
     for (size_t i = 0; i < strlen(b); i++){
         if (a[i] == b[i])
             continue;

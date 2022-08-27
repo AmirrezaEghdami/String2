@@ -3,5 +3,6 @@
 
 int search(char a[], char b[]);
 int startsWith(char a[], char b[]);
+int endsWith(char a[], char b[]);
 
 #endif
